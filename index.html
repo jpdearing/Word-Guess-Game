@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hangman (ish)</title>
+
+</head>
+
+<body>
+
+  <div class="hangman-body">
+         <div class="heading">
+        <h1>Hangman (ish)</h1>
+        <h2>Category: Famous video game character</h2>
+      </div>
+
+        <div class="panel panel-default">
+          <div class="panel-underscores">
+            <h2 id="word-blanks">_ _ _ _ _ _ _ _ _ </h2>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <p>Incorrect Letter Played: </p>
+            <span id="wrong-guesses"></span>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-body">
+
+            <p>Guesses Left: </p>
+            <span id="guesses-left">9</span>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-body">
+
+            <p>Wins: </p>
+            <span id="win-count">0</span>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-body">
+
+            <p>Losses: </p>
+            <span id="lose-count">0</span>
+          </div>
+        </div>
+  </div>
+
+  <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
